@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "pngs",
+		"path": "../gd web2/pngs"
+	},
+	{
+		"name": "gd web3",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "gd web3"
+  }
+}

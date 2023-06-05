@@ -1,0 +1,240 @@
+.header-primary {
+  font-family: "Montage";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9.6rem;
+  margin-bottom: 0;
+  line-height: 11.1rem;
+  color: #ff8100;
+}
+
+.secondary-primary {
+  font-family: "Montage";
+  font-size: 7rem;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  column-gap: 4rem;
+}
+
+.grid-column--7 {
+  grid-template-columns: repeat(6, auto);
+}
+.grid-column--5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid-column--1 {
+  grid-template-columns: 1fr;
+  row-gap: 3rem;
+}
+
+.heading-secondary {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.mode h3,
+.slot h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+
+  color: #717171;
+}
+
+.mode span,
+.slot span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+
+  color: #fff;
+}
+
+.prize h3,
+.date h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+
+  color: #717171;
+}
+
+.prize p,
+.date p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.btn:link,
+.btn:visited {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+  text-decoration: none;
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+
+  color: #ffffff;
+  background-color: #ff8100;
+  border: 2px solid #ff8100;
+  border-radius: 2px;
+
+  /* padding: 1rem 9rem; */
+  transition: all 0.3s;
+
+  /* Inside auto layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-container-mobile {
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: transparent;
+}
+
+.modal {
+  width: 36rem;
+  /* height: 58rem; */
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+/* 
+.game-logo img {
+  width: 15.2rem;
+  height: 12rem;
+} */
+
+.game-logo img {
+  width: 100%;
+}
+
+a.disabled {
+  background-color: #312f2e !important;
+  border: 2px solid #312f2e !important;
+  color: #646464 !important;
+  pointer-events: none !important;
+}
+
+/* MODAL CSS-GRID */
+
+.modal-container-grid {
+  opacity: 0;
+  position: fixed;
+
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  /* background-color: rgb(0, 0, 0); */
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+
+.modal-content-grid {
+  position: relative;
+  background-color: #021633;
+  margin: 10% auto;
+  /* padding: 20px; */
+  border: 1px solid #888;
+  max-width: 500px;
+
+  box-shadow: 0px 10px 50px #000;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.close-btn-grid {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff3d19;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  /* margin: 8px 0; */
+  border: none;
+  cursor: pointer;
+  /* width: 100%; */
+  transition: all 0.3s ease-in-out;
+}
+.modal-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn-grid > span {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.close-btn-grid:hover {
+  background-color: #ffffff;
+}
+
+.close-btn-grid:hover > span {
+  color: #ff3d19;
+}
+
+.grid-popup {
+  height: 100%;
+  width: 100%;
+}

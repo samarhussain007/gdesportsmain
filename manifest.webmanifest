@@ -1,0 +1,6 @@
+{
+  "icons": [
+    { "src": "./pngs/gdIcon.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "./pngs/gdIcon.png", "type": "image/png", "sizes": "192x192" }
+  ]
+}

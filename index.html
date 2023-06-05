@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./pngs/FAVICON.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+    <link href="carousel.css" rel="stylesheet" />
+    <link href="general.css" rel="stylesheet" />
+    <script defer src="script.js"></script>
+    <script defer src="mobile.js"></script>
+    <script defer src="modal.js"></script>
+    <title>GAMEDUELS | GD ESPORTS</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="https://gameduels.com/" class="logo"
+          ><img src="./pngs/Group.svg" alt="header logo" class="gd-logo"
+        /></a>
+        <nav>
+          <a href="#"
+            ><img src="Asset 8@1.svg" alt="gd esports logo" class="gd-logo"
+          /></a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- <div class="modal-container-grid">
+        <div class="modal-content-grid">
+          <div class="modal-header">GRAB YOUR TICKETS</div>
+          <img src="./pngs/Afkmodal.png" alt="grid-popup" class="grid-popup" />
+          <button class="close-btn-grid"><span>&times;</span></button>
+        </div>
+      </div> -->
+      <section class="carousel-section">
+        <div id="slider" class="slider">
+          <div id="slides" class="slides">
+            <div class="slide slider--1"></div>
+            <div class="slide slider--2"></div>
+            <div class="slide slider--3"></div>
+          </div>
+          <a id="prev" class="slider__btn control prev"></a>
+          <a id="next" class="slider__btn control next"></a>
+          <div class="dots"></div>
+        </div>
+      </section>
+      <section class="hero-title">
+        <div class="container hero-container">
+          <div class="hero-section-text-wr">
+            <h1 class="header-primary">JOIN TOURNAMENTS WEEKLY</h1>
+            <h2 class="secondary-primary">NO REGISTRATION FEES</h2>
+          </div>
+          <p>PLAY DIFFERENT</p>
+        </div>
+      </section>
+      <section class="tournaments-section">
+        <div class="header__center">TOURNAMENTS</div>
+        <div class="container tourney-blocks grid grid-column--7">
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/AimDuos Modal Preview.png"
+                data-src="./pngs/AimDuos MobilePreview.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status open">
+              <p>REGISTRATION OPEN</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">Aimduos</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>2v2</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>128</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 10,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>20 May 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form copy 3/form.html" class="btn"
+                  >REGISTRATION OPEN</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/Fifafrenzy-modalPreview.png"
+                data-src="./pngs/Fifafrenzy-mobilePreview.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status open">
+              <p>REGISTRATION OPEN</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">FIFA FRENZY - MOBILE</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>1v1</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>64</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 5,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>16 May 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form copy/form.html" class="btn"
+                  >REGISTRATION OPEN</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/PokemonUnite-modalPreview.png"
+                data-src="./pngs/PokemonUnite-mobilePreview.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status closed">
+              <p>REGISTRATION CLOSED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">Pokemon Unite</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>5v5</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>64</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 5,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>9 May 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form copy 2/form.html" class="btn disabled"
+                  >REGISTRATION CLOSED</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="divider" style="opacity: 0"></div>
+          <div class="divider-horizontal"></div>
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/NewState-modal.png"
+                data-src="./pngs/NewState-mobile-preview.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status completed">
+              <p>COMPLETED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">New State Mobile</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>Battle Royale</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>128</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 10,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>17 Apr 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form/form.html" class="btn disabled">COMPLETED</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/Grid2g.png"
+                data-src="./pngs/Grid3.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status completed">
+              <p>COMPLETED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">THE GRID</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>5V5</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>64</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 100,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>20 Feb 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form/form.html" class="btn disabled">COMPLETED</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/freefire-4.png"
+                data-src="./pngs/freefire-2.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status completed">
+              <p>COMPLETED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">Free Fire: The Chaos Cup 2</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>Battle royale</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>96</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 10,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>9 Jan 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScGA3Z3Q4GpVF2wfFLnflDzEBeseyGs5XnCCCQC1iK0-gVBRg/viewform"
+                  class="btn disabled"
+                  >COMPLETED</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="divider" style="opacity: 0"></div>
+          <div class="divider-horizontal"></div>
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/aimduels5-5.png"
+                data-src="./pngs/aimduels5-4.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status completed">
+              <p>COMPLETED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">Aimduels 5</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>1v1</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>128</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 10,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>16 Jan 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form copy/form.html" class="btn disabled"
+                  >COMPLETED</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/fifa-4.png"
+                data-src="./pngs/fifa-5.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status completed">
+              <p>COMPLETED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">Fifa Frenzy 2</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>1v1</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>32</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 5,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>8 Jan 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSd9Tk0GRND206mKyEQ5mtUL8dza1mG3EEcaf0f2gTqsMOCFVw/viewform"
+                  class="btn disabled"
+                  >COMPLETED</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/Dota-2.png"
+                data-src="./pngs/Dota-3.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status completed">
+              <p>COMPLETED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">MID MASTERZ Series 1</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>1v1</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>64</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 5,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>20 Feb 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form/form.html" class="btn disabled">COMPLETED</a>
+              </div>
+            </div>
+          </div>
+          <div class="divider-horizontal"></div>
+
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/Fifa frenzy 3-3.png"
+                data-src="./pngs/Fifa frenzy 3-2.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status completed">
+              <p>COMPLETED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">Fifa Frenzy 3</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>1v1</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>32</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 5,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>16 Apr 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form copy/form.html" class="btn disabled"
+                  >COMPLETED</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="modal">
+            <div class="banner-container">
+              <img
+                src="./pngs/Aimduels6-modal.png"
+                data-src="./pngs/Aimeduels6-mobile-preview.png"
+                alt="tournament-logo"
+                class="tournament-logo"
+              />
+            </div>
+            <div class="reg--status completed">
+              <p>COMPLETED</p>
+            </div>
+            <div class="tourney-details">
+              <h2 class="heading-secondary">Aimduels 6</h2>
+              <div class="mode--slots">
+                <div class="mode">
+                  <h3>Mode:</h3>
+                  <span>1v1</span>
+                </div>
+                <div class="dot-cont"></div>
+                <div class="slot">
+                  <h3>Slots:</h3>
+                  <span>128</span>
+                </div>
+              </div>
+              <div class="details">
+                <div class="prize">
+                  <h3>Prize Pool</h3>
+                  <p class="heading-secondary">&#x20B9; 10,000</p>
+                </div>
+                <div class="date">
+                  <h3>Date</h3>
+                  <p>24 Apr 2023</p>
+                </div>
+              </div>
+              <div class="btn-container">
+                <a href="./gd-form copy/form.html" class="btn disabled"
+                  >COMPLETED</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="host-section">
+        <div class="header__center">GAMES WE HOST</div>
+        <div class="container-host games grid grid-column--5">
+          <div class="game-logo">
+            <img src="./pngs/codm.png" alt="codm logo" />
+          </div>
+          <div class="game-logo">
+            <img src="./pngs/valorant.png" alt="valorant logo" />
+          </div>
+          <div class="game-logo">
+            <img src="./pngs/apex.png" alt="apex logo" />
+          </div>
+          <div class="game-logo custom1">
+            <img
+              src="./pngs/FREE_FIRE_MAX_LOGO 1.png"
+              alt="free fire max logo"
+            />
+          </div>
+          <div class="game-logo custom2">
+            <img src="./pngs/fifa.png" alt="fifa logo" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <a href="#" class="link-item">
+          <img
+            src="../gdesports/gd-form/Asset 6@1 (1).svg"
+            class="footer-logo"
+            alt="footer-logo"
+        /></a>
+        <ul class="footer-items">
+          <div class="footer-text">
+            <li>
+              <a
+                href="../../pages/privacypolicy/Privacypolicy.html"
+                class="link-item"
+                >Privacy Policy</a
+              >
+            </li>
+            <li><a href="#" class="link-item">Terms of Use</a></li>
+          </div>
+          <div class="social-icons">
+            <li>
+              <a href="https://discord.com/invite/2n2TdSK9XN"
+                ><ion-icon name="logo-discord" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/gdesportsofficial/"
+                class="link-item"
+                ><ion-icon name="logo-instagram" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/moonstarinteractive"
+                class="link-item"
+                target="_blank"
+                ><ion-icon name="logo-linkedin" class="social-icon"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC_vPUAHs_03uwRImEHMmWzg"
+                class="link-item"
+                ><ion-icon name="logo-youtube" class="social-icon"></ion-icon
+              ></a>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,190 @@
+@media (max-width: 106em) {
+  html {
+    font-size: 35%;
+  }
+}
+@media (max-width: 70em) {
+  html {
+    font-size: 25%;
+  }
+  .orange-border {
+    width: 90px !important;
+    height: 30px !important;
+    border-width: 2px !important;
+  }
+  .orange-border::before {
+    height: 2px !important;
+    top: -1.7px !important;
+    width: 6.5px !important;
+    left: 60px !important;
+  }
+  .orange-border::after {
+    height: 2px !important;
+    width: 6.5px !important;
+    top: 25.9px !important;
+    left: 20px !important;
+  }
+  .header-primary {
+    height: 9.8rem;
+  }
+}
+
+@media (max-width: 27em) {
+  html {
+    font-size: 35%;
+  }
+  .img-container {
+    width: 354px;
+    height: 200px;
+  }
+  .header-logo {
+    height: 2.2rem;
+  }
+  .divider {
+    transform: rotate(90deg);
+  }
+
+  .header {
+    padding: 2rem 4rem 2rem 4rem;
+  }
+  .modal {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10rem;
+  }
+  .host-section .games {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .games {
+    row-gap: 3rem;
+    padding-bottom: 10rem;
+  }
+  .custom1 {
+    grid-column: 1/3;
+    margin: 0 15rem 0 9.5rem;
+  }
+  .custom2 {
+    margin: 0 13rem 0 -13rem;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .header-primary {
+    height: 10rem;
+    width: 30rem;
+  }
+  .footer-items {
+    grid-template-columns: auto;
+    gap: 4rem;
+  }
+  .slider {
+    height: 380px !important;
+  }
+
+  .slide {
+    height: 380px !important;
+  }
+  .slider--1 {
+    background-image: url("./pngs/MicrosoftTeams-image\ \(2\).png") !important;
+  }
+  .slider--2 {
+    background-image: url("./pngs/MicrosoftTeams-image\ \(3\).png") !important;
+  }
+  .slider__btn {
+    display: none;
+  }
+  .btn {
+    width: 94px;
+    height: 100% !important;
+    justify-self: end;
+  }
+  .container-host {
+    max-width: 70rem;
+  }
+
+  .carousel {
+    margin-bottom: 15rem;
+  }
+  /* .game-logo img {
+    width: 40.2rem !important;
+    height: 20rem !important;
+  } */
+  .reg--status {
+    font-size: 1.8rem !important;
+  }
+  .carousel-section {
+    margin-bottom: 10rem;
+  }
+  .countdown-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .community-btn {
+    display: none;
+  }
+  .hurry-up p {
+    display: none;
+  }
+  .form {
+    grid-template-columns: 1fr !important;
+  }
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    gap: 3rem;
+  }
+  .header-primary {
+    height: 8rem;
+  }
+  .details {
+    grid-template-columns: 1fr 1fr;
+  }
+  .text-container {
+    gap: 4rem;
+  }
+  .details-1 {
+    width: auto;
+    height: 35.73px;
+  }
+  .details-2 {
+    width: auto;
+    height: 35.73px;
+  }
+  .details-3 {
+    width: auto;
+    height: 35.73px;
+  }
+  .details-4 {
+    width: auto;
+    height: 35.73px;
+  }
+  .orange-border-2::after {
+    display: none;
+  }
+  .orange-border-2::before {
+    display: none;
+  }
+  .orange-border::after {
+    display: none;
+  }
+  .orange-border::before {
+    display: none;
+  }
+  .heading-secondary {
+    font-size: 7rem;
+  }
+  .orange-border {
+    width: 78.4px !important;
+    height: 25px !important;
+  }
+}
