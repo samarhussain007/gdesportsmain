@@ -1,7 +1,7 @@
 let timer;
 
 const compareDate = new Date();
-var countDownDate = new Date("JUNE 24, 2023 16:37:52").getTime();
+var countDownDate = new Date("JUL 15, 2023 16:37:52").getTime();
 
 compareDate.setDate(compareDate.getDate() + 11); //just for this demo today + 7 days
 
